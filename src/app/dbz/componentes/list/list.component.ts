@@ -21,6 +21,8 @@ export class ListComponent {
   // onDelete \ Index value: number
 
   onDeleteCharacter(heroId?:string):void {
+    console.log(heroId);
+    
     // console.log(index);
     
     // TODO: Emitir el ID del personaje
